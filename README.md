@@ -2,8 +2,8 @@
 
 <div align="center">
 
-# NetPractice
-
+<img width="60%" alt="NetPractice" src="https://github.com/user-attachments/assets/62d256bc-4058-4ad6-8b76-51bfeb337ba9" />
+   
 ### 🌐 *You won't exit the Matrix if you don't know the route* 🌐
 
 ![Topic](https://img.shields.io/badge/topic-networking-blue.svg)
@@ -16,22 +16,12 @@
 
 ## Description
 
-**NetPractice** is a practical introduction to **computer networking**. The goal of the project is to configure small, simulated networks so that every device can reach the destinations required by each level. No code is written: the work consists of reasoning about **IP addresses**, **subnet masks**, **default gateways** and **routing tables**, and then filling in the missing fields of a network diagram until all goals turn green.
-
-The networks are not real. They are displayed in a training interface that runs in the web browser and that checks the configuration, explains failures through logs (for example, a missing gateway or an invalid IP address) and exports the solution of each level.
-
-The project covers 10 levels of increasing difficulty. Together they exercise the following skills:
-
-- Choosing valid host addresses inside a subnet (never the network or broadcast address).
-- Computing the subnet mask / CIDR prefix that fits a given number of hosts.
-- Making sure devices that must talk directly share the same subnet.
-- Setting default gateways and routing table entries so traffic can leave a subnet.
-- Connecting several routers and subnets, and reading the interface logs to debug a configuration.
+**NetPractice** is your first dive into **computer networking**. The goal of the project is to configure small, simulated networks so that every device can reach the destinations required by each level. No code is written: just octetcs and their decimal translation! Reason about **IP addresses**, **subnet masks**, **default gateways** and **routing tables**, and complete all the fields of the network diagram.
 
 ### Contents
 
 - [Instructions](#instructions)
-- [Submission details](#submission-details)
+- [Submission details](#submission-details-42-school)
 - [Method used to solve the levels](#method-used-to-solve-the-levels)
 - [CIDR reference table](#cidr-reference-table)
 - [Private and special address ranges](#private-and-special-address-ranges)
@@ -39,6 +29,11 @@ The project covers 10 levels of increasing difficulty. Together they exercise th
 - [Resources](#resources)
 
 ---
+<div align="center">
+
+<img width="100%" alt="Gemini_Generated_Image_3wx8mu3wx8mu3wx8" src="https://github.com/user-attachments/assets/a87a7442-25c4-487e-bd4a-fd3758cd2b4c" />
+</div>
+
 
 ## Instructions
 
@@ -71,11 +66,11 @@ Then open `http://localhost:49242` in the browser. The port number can be change
 
 ### Exporting configurations
 
-Before moving to the next level, click **Get my config** to download the configuration of the current level. Do this for each of the 10 levels, because the exported files are what is evaluated.
+Before moving to the next level, click **Get my config** to download the configuration of the current level. Do this for each of the 10 levels, because the exported files are what is evaluated in the 42 curriculum.
 
 ---
 
-## Submission details
+## Submission details (42 school)
 
 - The repository must contain **10 exported configuration files (one per level)** placed at the **root of the repository**, next to this `README.md`.
 - Every file must be exported with the login filled in on the interface.
@@ -199,8 +194,6 @@ A **router** connects different networks. It has one interface per network and u
 #### OSI layers
 
 The **OSI model** describes network communication in seven layers: physical, data link, network, transport, session, presentation and application. The **TCP/IP model** is a simplified version of it with four layers (link, internet, transport and application). Each layer provides services to the one above and relies on the one below. Switches work mainly at the data link layer, while IP addressing and routing belong to the network layer, which is where most of this project takes place.
-
-### References
 
 ### References
 
