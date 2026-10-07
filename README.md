@@ -28,7 +28,6 @@
 - [Project structure](#project-structure)
 - [Resources](#resources)
 
----
 <div align="center">
 
 <img width="100%" alt="Gemini_Generated_Image_3wx8mu3wx8mu3wx8" src="https://github.com/user-attachments/assets/a87a7442-25c4-487e-bd4a-fd3758cd2b4c" />
