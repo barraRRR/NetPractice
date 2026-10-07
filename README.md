@@ -4,7 +4,7 @@
 
 <img width="60%" alt="NetPractice" src="https://github.com/user-attachments/assets/62d256bc-4058-4ad6-8b76-51bfeb337ba9" />
    
-### 🌐 *You won't exit the Matrix if you don't know the route* 🌐
+### *You won't exit the Matrix if you don't know the route*
 
 ![Topic](https://img.shields.io/badge/topic-networking-blue.svg)
 ![Protocol](https://img.shields.io/badge/protocol-TCP%2FIP-orange.svg)
@@ -16,7 +16,7 @@
 
 ## Description
 
-**NetPractice** is your first dive into **computer networking**. The goal of the project is to configure small, simulated networks so that every device can reach the destinations required by each level. No code is written: just octetcs and their decimal translation! Reason about **IP addresses**, **subnet masks**, **default gateways** and **routing tables**, and complete all the fields of the network diagram.
+🌐 **NetPractice** is your first dive into **computer networking**. The goal of the project is to configure small, simulated networks so that every device can reach the destinations required by each level. No code is written: just octetcs and their decimal translation! Reason about **IP addresses**, **subnet masks**, **default gateways** and **routing tables**, and complete all the fields of the network diagram.
 
 ### Contents
 
